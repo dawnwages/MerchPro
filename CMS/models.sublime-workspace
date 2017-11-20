@@ -1,0 +1,207 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"size",
+				"font-size"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 447.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 609.0
+	},
+	"console":
+	{
+		"height": 171.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/Wages/Documents/GitHub/MerchPro/MerchPro/home/templatetags/core_homepage_tags.py",
+		"/C/Users/Wages/Documents/GitHub/MerchPro/MerchPro/home/templatetags/__init_.py",
+		"/C/Users/Wages/Documents/GitHub/micons/home/models.py",
+		"/C/Users/Wages/Documents/GitHub/MerchPro/MerchPro/home/models.py",
+		"/C/Users/Wages/Documents/BOOTCAMP!/UNCCHL201711FSF3-Class-Repository-FSF-master-40937dbb05caeb8352eb847a6402e1a2fe1d1520/class-content/01-html-css-git/11-CSS_Positioned_Activity/self exercise/positioning.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/UNCCHL201711FSF3-Class-Repository-FSF-master-40937dbb05caeb8352eb847a6402e1a2fe1d1520/class-content/01-html-css-git/11-CSS_Positioned_Activity/self exercise/style.css",
+		"/C/Users/Wages/Documents/BOOTCAMP!/UNCCHL201711FSF3-Class-Repository-FSF-master-40937dbb05caeb8352eb847a6402e1a2fe1d1520/class-content/01-html-css-git/09-FloatLayout-Activity/Unsolved/floats.html",
+		"/C/Users/Wages/Documents/GitHub/EIP/profiles/models.py",
+		"/C/Users/Wages/Documents/GitHub/EIP/CMS/models.py",
+		"/C/Users/Wages/Documents/GitHub/EIP/product/models.py",
+		"/C/Users/Wages/Documents/BOOTCAMP!/UNCCHL201711FSF3-Class-Repository-FSF-master-40937dbb05caeb8352eb847a6402e1a2fe1d1520/class-content/01-html-css-git/09-FloatLayout-Activity/Unsolved/floats.css",
+		"/C/Users/Wages/Documents/BOOTCAMP!/2017-11-16_Git+VersionControl/StudentBio.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/UNCCHL201711FSF3-Class-Repository-FSF-master-40937dbb05caeb8352eb847a6402e1a2fe1d1520/class-content/01-html-css-git/07-RelativePaths-Activity/Demo/html-bio-with-css.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/UNCCHL201711FSF3-Class-Repository-FSF-master-40937dbb05caeb8352eb847a6402e1a2fe1d1520/class-content/01-html-css-git/08-FloatExamples/style.css",
+		"/C/Users/Wages/Documents/GitHub/EIP/CMS/templates/CMS/base.html",
+		"/C/Users/Wages/Documents/GitHub/EIP/CMS/templates/CMS/post_list.html",
+		"/C/Users/Wages/Documents/GitHub/EIP/CMS/templates/CMS/post_edit.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/first-day-stuff/first.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-10/javascript.js",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-10/index.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-10/attempt 1/index.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-10/style.css",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-7/BrokenCode/BooTheDog.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-9/index.html",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-9/css/style.css",
+		"/C/Users/Wages/Downloads/templated-spatial/index.html",
+		"/C/Users/Wages/Downloads/templated-spatial/assets/css/main.css",
+		"/C/Users/Wages/Downloads/templated-spatial.zip",
+		"/C/Users/Wages/Documents/BOOTCAMP!/PREWORK_DMW/Module-8/fanpage.html",
+		"/C/Users/Wages/Desktop/Broken_and_Working_Code/BrokenCode/BooTheDog.html",
+		"/C/Users/Wages/Desktop/Broken_and_Working_Code/BrokenCode/logic.js",
+		"/C/Users/Wages/Desktop/Broken_and_Working_Code/BrokenCode/style.css",
+		"/C/Users/Wages/Desktop/Broken_and_Working_Code/BrokenCode/Bug List.txt",
+		"/C/Users/Wages/Documents/GitHub/EIP/product/apps.py"
+	],
+	"find":
+	{
+		"height": 52.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "models.sublime-project",
+	"replace":
+	{
+		"height": 55.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 188.0,
+	"status_bar_visible": false,
+	"template_settings":
+	{
+	}
+}

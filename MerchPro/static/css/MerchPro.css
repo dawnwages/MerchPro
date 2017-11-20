@@ -1,0 +1,69 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+* {
+  box-sizing: border-box;
+  
+}
+
+
+.wagtail-userbar{
+
+}
+
+.container{
+	padding-top: 4rem;
+}
+
+h2{
+	margin-bottom:0rem;
+	margin-top: 2rem;
+}
+
+header {
+  margin: 0px 0px 0px 0px;
+  color: #333;
+  height: 100px;
+}
+
+.title{
+	text-align: center;
+	float:left;
+	width: 20%;
+	background: #eeeeee;
+	padding: 20px;
+	height: 100%;
+}
+
+.rest{
+	float:left;
+	width: 80%;
+	background: #ff33ee;
+	padding: 20px;
+	height: 100%;
+}
+
+/*Navigation CSS */
+
+.pn-scrollnav{
+	/*make this scrollable when needed */
+	overflow-x:auto;
+	/*We dont want verticle scrolling*/
+	overflow-y:hidden;
+	/* Manke an auto-hiding scroller for IE*/
+	-ms-overflow-style: -ms-autohiding-scrollbar;
+	/*For WebKit implementations, provide inertia scrolling */
+	-webkit-overflow-scrolling: touch;
+	/*We don't want internal inline elements to wrap */
+	white-space: nowrap;
+	/*Remove default scrollbar for webkit implementations */
+}
+
+.pn-scrollnav::-webkit-scrollbar {
+		display: none;
+	}
+
+
+.pn-scrollnav_link{
+	
+}

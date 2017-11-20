@@ -1,0 +1,11 @@
+*.pyc
+*~
+__pycache__
+LEIP
+ENV
+myvenv
+venv
+db.sqlite3
+/static
+.DS_Store
+media

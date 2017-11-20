@@ -1,44 +1,174 @@
 {% load static wagtailuserbar %}
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
 
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <title>
-            {% block title %}
-                {% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}
-            {% endblock %}
-            {% block title_suffix %}
-                {% with self.get_site.site_name as site_name %}
-                    {% if site_name %}- {{ site_name }}{% endif %}
-                {% endwith %}
-            {% endblock %}
-        </title>
-        <meta name="description" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+<head>
+    <title>{% block title %}{% if self.seo_title %}{{ self.seo_title }}{% else %}{{ self.title }}{% endif %}{% endblock %}{% block title_suffix %}{% endblock %}</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      body {
+          padding-top: 50px;
+          padding-bottom: 20px;
+      }
+    
 
-        {# Global stylesheets #}
-        <link rel="stylesheet" type="text/css" href="{% static 'css/MerchPro.css' %}">
+    </style>
 
-        {% block extra_css %}
-            {# Override this in templates to add extra stylesheets #}
-        {% endblock %}
-    </head>
+    <!-- CSS Reset -->
+    <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
+    <!-- Milligram CSS minified -->
+    <link rel="stylesheet" href="//cdn.rawgit.com/milligram/milligram/master/dist/milligram.min.css">
+    
+    <link rel="stylesheet" href="{% static 'css/MerchPro.css' %}"> 
+    <script src="{% static 'js/script.js' %}"> </script>
+</head>
 
-    <body class="{% block body_class %}{% endblock %}">
-        {% wagtailuserbar %}
+<body>
+{% wagtailuserbar %}
 
-        {% block content %}{% endblock %}
+<header>
+        <div class="title"><h1> MerchPro </h1>
+        </div>
+        <div class="rest">
+            <nav class="pn-scrollnav"> 
+                <div class="pn-scrollnav_contents">
+                    <a href="#" class="pn-scrollnav_link" aria-selected="true">One</a>
+                    <a href="#" class="pn-scrollnav_link">Two</a>
+                    <a href="#" class="pn-scrollnav_link">Three</a>
+                    <a href="#" class="pn-scrollnav_link">Four</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a> 
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>                     <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>                     <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>                     <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>                     <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>
+                    <a href="#" class="pn-scrollnav_link">Five</a>                 
+                </div>
+            </nav>
+        </div>
+</header>
+<script>
+    function determineOverflow(content, container) {
+    var containerMetrics = container.getBoundingClientRect();
+    var containerMetricsRight = Math.floor(containerMetrics.right);
+    var containerMetricsLeft = Math.floor(containerMetrics.left);
+    var contentMetrics = content.getBoundingClientRect();
+    var contentMetricsRight = Math.floor(contentMetrics.right);
+    var contentMetricsLeft = Math.floor(contentMetrics.left);
+    if (containerMetricsLeft > contentMetricsLeft && containerMetricsRight < contentMetricsRight) {
+        return "both";
+    } else if (contentMetricsLeft < containerMetricsLeft) {
+        return "left";
+    } else if (contentMetricsRight > containerMetricsRight) {
+        return "right";
+    } else {
+        return "none"
+    }
+}
+</script>
+    <!--[if lt IE 8]>
+              <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+          <![endif]-->
+    
+    <div class="container">
+    {% block content %}{% endblock %}
+    </div>
+    <footer class="text-center">
+        <p>&copy; A Tyme Company 2015</p>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
-        {# Global javascript #}
-        <script type="text/javascript" src="{% static 'js/MerchPro.js' %}"></script>
+</body>
 
-        {% block extra_js %}
-            {# Override this in templates to add extra javascript #}
-        {% endblock %}
-    </body>
 </html>
