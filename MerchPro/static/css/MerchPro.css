@@ -6,13 +6,33 @@
   
 }
 
+.gridpick{
+	text-align: center;
+    padding: 32px;
+}
 
 .wagtail-userbar{
 
 }
 
+.glyphicon-plus{
+	margin: 10px 10px 10px 40px;
+}
+
 .container{
-	padding-top: 4rem;
+	/*padding-top: 4rem;*/
+	/*overflow-x: hidden;*//*adding for JSfiddle script*/
+	/*width: 600px;*//*adding for JSfiddle script*/
+}
+
+section{
+	margin: 20px 80px 20px 20px;
+	padding: 50px;
+
+}
+
+h1{
+	font-size: 2em;
 }
 
 h2{
@@ -24,6 +44,40 @@ header {
   margin: 0px 0px 0px 0px;
   color: #333;
   height: 100px;
+  width: 100%;
+}
+
+.tooltips{
+	  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted grey;
+  color: #005050;
+} 
+
+
+
+
+.tooltiptext.tooltiptext{
+   visibility: hidden;
+    width: 120px;
+    background-color: black;
+    opacity: .5;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: +1;
+    top: 40%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltips:hover .tooltiptext {
+    visibility: visible;
 }
 
 .title{
@@ -31,7 +85,6 @@ header {
 	float:left;
 	width: 20%;
 	background: #eeeeee;
-	padding: 20px;
 	height: 100%;
 }
 
@@ -39,31 +92,93 @@ header {
 	float:left;
 	width: 80%;
 	background: #ff33ee;
-	padding: 20px;
+	padding: 10px 20px 10px 20px;
 	height: 100%;
 }
 
 /*Navigation CSS */
 
-.pn-scrollnav{
-	/*make this scrollable when needed */
-	overflow-x:auto;
-	/*We dont want verticle scrolling*/
-	overflow-y:hidden;
-	/* Manke an auto-hiding scroller for IE*/
-	-ms-overflow-style: -ms-autohiding-scrollbar;
-	/*For WebKit implementations, provide inertia scrolling */
-	-webkit-overflow-scrolling: touch;
-	/*We don't want internal inline elements to wrap */
-	white-space: nowrap;
-	/*Remove default scrollbar for webkit implementations */
+/* instead of class tslshow*/
+/* instead of class scrolling-wrapper*/
+#parent {
+  overflow-x: scroll; /*hiding for JSfiddle script*/
+    overflow-y: hidden;
+  white-space: nowrap;
+height: 120px;
+/*width: 6000px;*//*adding for the JSfiddle script*/
+-webkit-overflow-scrolling: touch;
+  &::-webkit-scrollbar {
+    display: none;
+  } /*hiding for JSfiddle script*/
+   
 }
 
-.pn-scrollnav::-webkit-scrollbar {
-		display: none;
-	}
 
+/*instead of bstimeslider*/
+.pn-scrollnav{
 
-.pn-scrollnav_link{
-	
+}
+
+/* Instead of card*/
+.contentBlock {
+	width: 70px;
+	height: 70px;
+	margin: 10px;
+	border: solid #fff;
+	display: inline-block;/*hiding for JSfiddle script*/
+	text-align: center;
+}
+
+.panner{
+	border:1px solid black;
+	display: block;
+	position: fixed;
+	width:50px;
+	height: 50px;
+	top: 45%;
+}/*added for the JSfiddle script*/
+
+.active{
+	color:red;
+}
+
+#scroll-left{
+	left:0px;
+}
+
+#scroll-right{
+	right:0px;
+}
+
+footer{
+	padding: 10px;
+	margin: 0px 0px 0px 0px;
+	color: #fff;
+	background: #666666;
+	clear: both;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border-top: solid #4aaaa5;
+	text-align: center;
+	font-size: 10px
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+.column img {
+    margin-top: 12px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
